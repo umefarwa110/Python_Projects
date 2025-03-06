@@ -82,5 +82,4 @@ if uploaded_files:
                 file_name = file_name,
                 mime = mime_type
             )
-
-st.success("💖 Thank You for Visiting")
+st.write("A Journey of Learning & Creativity 🚀 | Built by Ume-Farwa")
