@@ -70,7 +70,7 @@ if password:
     if suggestions:
         st.markdown("### Suggestions to Improve Your Password:")
         for suggestion in suggestions:
-            st.write("❌", suggestion)
+            st.write("📍", suggestion)
 
 # Password Generator Feature
 if st.button("Generate a Strong Password"):
