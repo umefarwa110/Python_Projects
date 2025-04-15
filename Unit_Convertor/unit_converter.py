@@ -40,7 +40,7 @@ def convert_units(value, from_unit, to_unit, unit_category):
     return value * conversions[unit_category][to_unit] / conversions[unit_category][from_unit]
 
 # StreamLit UI
-st.set_page_config(page_title="Simple Unit Converter", page_icon="🔄", layout="centered")
+st.set_page_config(page_title="Simple Unit Converter", page_icon="🔄")
 st.title("Simple Unit Converter")
 st.write("📐 Length, ⚖️ Weight and 🌡️ Temperature")
 
